@@ -1,0 +1,15 @@
+- summary: |
+    Нет кнопки регистрации на странице входа
+  environment: |
+   Yandex Brauser   24.12.0.1810 (Официальная сборка) (64 бит)
+    ОС windows 10
+  steps-to-reproduce: |
+    1. Зайти на страницу логина https://hexlet-products-store.vercel.app/
+  expected-result: |
+   На странице должна быть кнопка "Регистрация", позволяющая пользователям создать новый аккаунт.
+  actual-result: |
+    Нет соответствующей кнопки для регистрации.
+    Severity level : |
+    Высокая.
+  Screenshot : |
+  
