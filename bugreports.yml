@@ -1,52 +1,139 @@
-- summary: |
-    Нет кнопки регистрации на странице входа
-  environment: |
-   Yandex Brauser   24.12.0.1810 (Официальная сборка) (64 бит)
-    ОС windows 10
-  steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-  expected-result: |
-   На странице должна быть кнопка "Регистрация", позволяющая пользователям создать новый аккаунт.
-  actual-result: |
-    Нет соответствующей кнопки для регистрации.
-    Severity level : |
-    Высокая.
-  Screenshot : |
-  
----
+summary: |
+Нет кнопки регистрации на странице входа
+environment: |
+Yandex Browser 24.12.0.1810 (Официальная сборка) (64 бит)
+ОС Windows 10
+steps-to-reproduce: |
 
-- summary: |
-    Ошибка при переключении языка на русский
-  environment: |
-    Yandex Brauser   24.12.0.1810 (Официальная сборка) (64 бит)
-  steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Выбрать товар на английском языке.
-    3. Переключить язык интерфейса на русский язык.
-  expected-result: |
-   Описание товара отображается на русском языке.
-  actual-result: |
-    Описание товара остается на английском языке.
-  Severity level : |
-    Высокая.
+Зайти на страницу https://hexlet-products-store.vercel.app/
+expected-result: |
+На странице должна быть кнопка "Регистрация", позволяющая пользователям создать новый аккаунт.
+actual-result: |
+Нет соответствующей кнопки для регистрации.
+Severity level: |
+Высокая.
+Screenshot: |
 
-    ---
+summary: |
+Ошибка при переключении языка на русский
+environment: |
+Yandex Browser 24.12.0.1810 (Официальная сборка) (64 бит)
+ОС Windows 10
+steps-to-reproduce: |
 
-    - summary: |
-    Ошибка оформления заказа в корзине
-  environment: |
-    Yandex Brauser   24.12.0.1810 (Официальная сборка) (64 бит)
-  steps-to-reproduce: |
-    1. Добавить товары в корзину.
-    2. Перейти в корзину.
-    3. Нажать на кнопку 'Оформить заказ'
-  expected-result: |
-    Открывается страница оформления заказа.
-  actual-result: |
-    Оформление заказа не происходит, страница не загружается.
-  Severity level : |
-    Высокая.
+Зайти на страницу https://hexlet-products-store.vercel.app/
 
- ---
+Выбрать товар на английском языке.
 
- 
+Переключить язык интерфейса на русский язык.
+expected-result: |
+Описание товара отображается на русском языке.
+actual-result: |
+Описание товара остается на английском языке.
+Severity level: |
+Высокая.
+Screenshot: |
+
+summary: |
+Ошибка оформления заказа в корзине
+environment: |
+Yandex Browser 24.12.0.1810 (Официальная сборка) (64 бит)
+ОС Windows 10
+steps-to-reproduce: |
+
+Добавить товары в корзину.
+
+Перейти в корзину.
+
+Нажать на кнопку "Оформить заказ".
+expected-result: |
+Открывается страница оформления заказа.
+actual-result: |
+Оформление заказа не происходит, страница не загружается.
+Severity level: |
+Высокая.
+Screenshot: |
+
+summary: |
+Не отображается скидка на товар в карточке товара
+environment: |
+Yandex Browser 24.12.0.1810 (Официальная сборка) (64 бит)
+ОС Windows 10
+steps-to-reproduce: |
+
+Зайти на страницу https://hexlet-products-store.vercel.app/
+
+Перейти в категорию "Акции".
+
+Выбрать товар с указанной скидкой.
+expected-result: |
+В карточке товара отображается скидка.
+actual-result: |
+Скидка на товар не отображается.
+Severity level: |
+Средняя.
+Screenshot: |
+
+summary: |
+Не работает фильтр по цене в категории "Электроника"
+environment: |
+Yandex Browser 24.12.0.1810 (Официальная сборка) (64 бит)
+ОС Windows 10
+steps-to-reproduce: |
+
+Зайти на страницу https://hexlet-products-store.vercel.app/
+
+Перейти в категорию "Электроника".
+
+Установить фильтр по цене от 5000 до 15000 рублей.
+expected-result: |
+Отображаются только товары, соответствующие заданному диапазону цен.
+actual-result: |
+Фильтр не применяется, отображаются все товары категории.
+Severity level: |
+Высокая.
+Screenshot: |
+
+summary: |
+Не сохраняются изменения в профиле пользователя
+environment: |
+Yandex Browser 24.12.0.1810 (Официальная сборка) (64 бит)
+ОС Windows 10
+steps-to-reproduce: |
+
+Зайти на страницу https://hexlet-products-store.vercel.app/
+
+Авторизоваться в системе.
+
+Перейти в раздел "Профиль".
+
+Изменить данные (например, имя или email).
+
+Нажать кнопку "Сохранить".
+expected-result: |
+Данные профиля успешно обновляются.
+actual-result: |
+Изменения не сохраняются, данные остаются прежними.
+Severity level: |
+Средняя.
+Screenshot: |
+
+summary: |
+Не отображается количество товара в корзине в шапке сайта
+environment: |
+Yandex Browser 24.12.0.1810 (Официальная сборка) (64 бит)
+ОС Windows 10
+steps-to-reproduce: |
+
+Зайти на страницу https://hexlet-products-store.vercel.app/
+
+Добавить товар в корзину.
+
+Вернуться на главную страницу.
+expected-result: |
+В шапке сайта отображается количество товаров в корзине.
+actual-result: |
+Количество товаров в корзине не отображается.
+Severity level: |
+Низкая.
+Screenshot: |
