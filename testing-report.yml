@@ -1,51 +1,51 @@
 --- 
 - summary:
    Поиск товара по ключевому слову
-  status: Pass
+  status: pass
 
 - summary:
    Поиск товара по категории
-  status: Fail
+  status: fail
 
 - summary:
    Проверка фильтрации по цене
-  status: Pass
+  status: pass
 
 - summary:
    Добавление товара в корзину
-  status: Pass
+  status: pass
 
 - summary:
    Проверка изменения количества товара в корзине
-  status: Fail
+  status: fail
 
 - summary:
    Удаление товара из корзины
-  status: Pass
+  status: pass
 
 - summary:
    Оформление заказа
-  status: Fail
+  status: fail
 
 - summary:
    Проверка корректности отображения на мобильных устройствах
-  status: Fail
+  status: fail
 
 - summary:
    Проверка функциональности всех действий на мобильной версии
-  status: Pass
+  status: pass
 
 - summary:
    Проверить функциональность поиска товара по частичному названию
-  status: Pass
+  status: pass
 
 - summary:
    Проверить функциональность поиска товара с учетом регистра символов
-  status: Pass
+  status: pass
 
 - summary:
    Проверить функциональность поиска товара при вводе спецсимволов
-  status: Pass
+  status: pass
 
 - summary:
    Проверить функциональность автодополнения при вводе запроса в строке поиска
