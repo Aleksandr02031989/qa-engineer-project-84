@@ -66,7 +66,7 @@ test-cases:
       Нет кнопки изменения количества товаров в корзине.
     severity-level: |
       Высокая.
-    status: fail  # Add status field
+    status: fail
 
   - summary: |
       Ошибка оформления заказа в корзине
@@ -82,7 +82,7 @@ test-cases:
       Оформление заказа не происходит, страница не загружается.
     severity-level: |
       Высокая.
-    status: fail  # Add status field
+    status: fail
 
   - summary: |
       Ошибка отображения на мобильных устройствах
@@ -98,7 +98,7 @@ test-cases:
       Элементы страницы могут выходить за пределы экрана, накладываться друг на друга или отображаться в неправильном порядке.
     severity-level: |
       Высокая.
-    status: fail  # Add status field
+    status: fail
 
   - summary: |
       Нет перевода описания товаров на русский язык
@@ -114,7 +114,7 @@ test-cases:
       Описание товара остается на английском языке.
     severity-level: |
       Высокая.
-    status: fail  # Add status field
+    status: fail
 
   - summary: |
       Не отображается скидка на товар в карточке товара
@@ -130,7 +130,7 @@ test-cases:
       Скидка на товар не отображается.
     severity-level: |
       Средняя.
-    status: fail  # Add status field
+    status: fail
 
   - summary: |
       Не работает фильтр по цене в категории "Электроника"
@@ -146,7 +146,7 @@ test-cases:
       Фильтр не применяется, отображаются все товары категории.
     severity-level: |
       Высокая.
-    status: fail  # Add status field
+    status: fail
 
   - summary: |
       Не сохраняются изменения в профиле пользователя
@@ -164,7 +164,7 @@ test-cases:
       Изменения не сохраняются, данные остаются прежними.
     severity-level: |
       Средняя.
-    status: fail  # Add status field
+    status: fail
 
   - summary: |
       Не отображается количество товара в корзине в шапке сайта
@@ -180,4 +180,4 @@ test-cases:
       Количество товаров в корзине не отображается.
     severity-level: |
       Низкая.
-    status: fail  # Add status field
+    status: fail
