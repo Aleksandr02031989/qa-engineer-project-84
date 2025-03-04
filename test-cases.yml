@@ -1,17 +1,17 @@
 ---
  - summary: |
     Поиск товара по ключевому слову
-   requirement: |
+  requirement: |
     Пользователь должен иметь возможность найти товар по его названию.
-   prerequisites: |
+  prerequisites: |
     - Пользователь находится на главной странице интернет-магазина.
     - Поисковая строка доступна и активна.
-   test-data: |
+  test-data: |
     - Запрос: "Eyeshadow Palette with Mirror"
-   steps:
-    1. Ввести запрос "Eyeshadow Palette with Mirror" в поисковую строку.
-    2. Нажать кнопку "Поиск".
-   expected-result: |
+  steps:
+    - Ввести запрос "Eyeshadow Palette with Mirror" в поисковую строку.
+    - Нажать кнопку "Поиск".
+  expected-result: |
     - Отображается список товаров, соответствующих запросу "Eyeshadow Palette with Mirror".
     - Каждый товар в списке содержит:
       - Название.
